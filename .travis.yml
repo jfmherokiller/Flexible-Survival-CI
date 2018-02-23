@@ -4,5 +4,12 @@ env:
     - I7_PREFIX: "/tmp/i7"
 install: ./install-inform.sh $I7_PREFIX
 script: $I7_PREFIX/bin/i7 -p $I7_PREFIX -r FlexibleSurvival.inform
-after_success: ./push-folder-as-gh-pages.sh ./FLexibleSurvival.materials/Release
 
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  local-dir: ./FLexibleSurvival.materials/Release
+  on:
+    branch: master
