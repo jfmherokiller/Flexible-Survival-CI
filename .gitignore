@@ -1,5 +1,4 @@
 
-# Created by https://www.gitignore.io/api/osx,windows
 
 ### OSX ###
 **/.DS_Store
@@ -49,5 +48,13 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Ignore Generated Inform inform Files
+FlexibleSurvival.inform/Build
+FlexibleSurvival.inform/Index
+FlexibleSurvival.inform/Release.blurb
+FlexibleSurvival.inform/Skein.skein
+FlexibleSurvival.inform/notes.rtf
+FlexibleSurvival.inform/Metadata.iFiction
 
-# End of https://www.gitignore.io/api/osx,windows
+# Ignore Generated Inform material files
+FlexibleSurvival.materials/Release
