@@ -1,1 +1,0 @@
-FlexibleSurvival.materials/Extensions/Inform/story.ni

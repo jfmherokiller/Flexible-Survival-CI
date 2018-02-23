@@ -56,5 +56,8 @@ FlexibleSurvival.inform/Skein.skein
 FlexibleSurvival.inform/notes.rtf
 FlexibleSurvival.inform/Metadata.iFiction
 
+#ignore story file because it will be copied or hard linked
+FlexibleSurvival.inform/Source/story.ni
+
 # Ignore Generated Inform material files
 FlexibleSurvival.materials/Release

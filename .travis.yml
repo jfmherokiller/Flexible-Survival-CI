@@ -2,7 +2,7 @@ language: generic
 env:
   global:
     - I7_PREFIX: "/tmp/i7"
-install: ./install-inform.sh $I7_PREFIX
+install: ./bootstrap.sh
 script: $I7_PREFIX/bin/i7 -p $I7_PREFIX -r FlexibleSurvival.inform
 
 deploy:
