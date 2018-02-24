@@ -12,3 +12,5 @@ while [ -e /proc/$! ]; do
     echo -n "."  # Do something while the background command runs.
     sleep 1  # Optional: slow the loop so we don't use up all the dots.
 done
+
+exit $!
