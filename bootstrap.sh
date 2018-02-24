@@ -4,3 +4,4 @@ set -e
 ./install-inform.sh $I7_PREFIX
 
 cp ./FlexibleSurvival.materials/Extensions/Inform/story.ni ./FlexibleSurvival.inform/Source/story.ni
+cp -r ./FlexibleSurvival.materials/Extensions/Figures ./FlexibleSurvival.materials/
