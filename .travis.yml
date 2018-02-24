@@ -3,7 +3,7 @@ env:
   global:
     - I7_PREFIX: "/tmp/i7"
 install: ./bootstrap.sh
-script: travis_wait ./build-code.sh
+script: ./build-code.sh
 
 deploy:
   provider: pages
@@ -13,3 +13,6 @@ deploy:
   local-dir: ./FLexibleSurvival.materials/Release
   on:
     branch: master
+
+notifications:
+  email: false
