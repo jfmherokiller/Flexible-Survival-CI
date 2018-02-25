@@ -21,6 +21,6 @@ deploy:
   on:
     branch: master
 
- cache:
+cache:
     directories:
      - $I7_PREFIX  
