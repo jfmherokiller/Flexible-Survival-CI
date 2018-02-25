@@ -1,7 +1,7 @@
 language: generic
 env:
   global:
-    - I7_PREFIX: "/tmp/i7"
+    - I7_PREFIX: "/tmp/i721_inform"
 install: ./bootstrap.sh
 script: ./build-code.sh
 
@@ -20,3 +20,7 @@ deploy:
   app: flexible-survival-deploy
   on:
     branch: master
+
+ cache:
+    directories:
+     - /tmp/i721_inform/  

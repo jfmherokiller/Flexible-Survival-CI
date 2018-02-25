@@ -13,5 +13,6 @@ while [ -e /proc/$! ]; do
     sleep 1  # Optional: slow the loop so we don't use up all the dots.
 done
 
+#create release directory for deployment
 cp -R FlexibleSurvival.materials/Release ./
 cp Procfile Release/
