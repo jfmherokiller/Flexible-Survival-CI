@@ -13,4 +13,5 @@ while [ -e /proc/$! ]; do
     sleep 1  # Optional: slow the loop so we don't use up all the dots.
 done
 
+cp -R FlexibleSurvival.materials/Release ./
 exit $!
