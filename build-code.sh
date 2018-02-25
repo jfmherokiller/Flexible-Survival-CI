@@ -14,4 +14,3 @@ while [ -e /proc/$! ]; do
 done
 
 cp -R FlexibleSurvival.materials/Release ./
-exit $!
