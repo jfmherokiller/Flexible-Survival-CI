@@ -15,4 +15,4 @@ done
 
 #create release directory for deployment
 cp -R FlexibleSurvival.materials/Release ./
-cp Procfile Release/
+cp heroku-procfile.txt Release/Procfile
