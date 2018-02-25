@@ -9,3 +9,14 @@ script: ./build-code.sh
 notifications:
   email: false
 sudo: false
+
+before_deploy:
+  - cd ./Release
+
+deploy:
+  provider: heroku
+  api_key: $HEROKU_KEY
+  skip_cleanup: true
+  app: flexible-survival-deploy
+  on:
+    branch: master

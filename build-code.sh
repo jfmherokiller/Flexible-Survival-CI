@@ -14,3 +14,4 @@ while [ -e /proc/$! ]; do
 done
 
 cp -R FlexibleSurvival.materials/Release ./
+cp Procfile Release/
