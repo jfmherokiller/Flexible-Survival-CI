@@ -5,15 +5,6 @@ env:
 install: ./bootstrap.sh
 script: ./build-code.sh
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: false
-  local-dir: Release
-  verbose: true
-  on:
-    branch: master
 
 notifications:
   email: false
