@@ -14,7 +14,7 @@ INSTALL_LOCATION=$1
 
 # Download and unzip in /tmp
 cd /tmp
-wget http://inform7.com/download/content/6M62/I7_6M62_Linux_all.tar.gz
+wget http://inform7.com/apps/6M62/I7_6M62_Linux_all.tar.gz
 tar -xvf I7_6M62_Linux_all.tar.gz
 cd inform7-6M62
 ./install-inform7.sh --prefix $INSTALL_LOCATION
